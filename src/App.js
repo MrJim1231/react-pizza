@@ -1,15 +1,18 @@
 import './App.css';
 import './scss/app.scss';
 import logoSvg from './assets/img/pizza-logo.svg';
+import Button from './Button';
 
 function App() {
+
   return (
     <div className="wrapper">
-      <div className="header">
+        <div className="header">
         <div className="container">
           <div className="header__logo">
             <img width="38" src={logoSvg} alt="Pizza logo" />
             <div>
+              <Button />
               <h1>React Pizza</h1>
               <p>самая вкусная пицца во вселенной</p>
             </div>
